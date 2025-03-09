@@ -9,7 +9,10 @@ export default defineConfig(({ mode }) => {
   return {
     server: {
       open: true,
-      port: PORT
+      port: PORT,
+      mimeTypes: {
+        'jsx': 'application/javascript'
+      }
     },
     define: {
       global: 'window'
