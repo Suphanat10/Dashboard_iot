@@ -1,21 +1,3 @@
 {
-   "base": '/Locker/dashboards/'
-   "routes": [
-     {
-       "src": "/[^.]+",             
-       "dest": "/",                // Redirects them to the root ("/")
-       "status": 200               // Returns a 200 OK for these requests
-     },
-     {
-       "src": "/assets/(.*)",      // Matches requests to the assets folder
-       "dest": "/assets/$1",       // Serves the assets without redirection
-       "status": 200               // Returns a 200 OK for asset requests
-     },
-     {
-       "src": "/js/(.*)",          // Matches requests to the js folder
-       "dest": "/js/$1",           // Serves the js files without redirection
-       "status": 200               // Returns a 200 OK for js requests
-     }
-   ]
+   "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
  }
- 
