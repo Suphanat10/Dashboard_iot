@@ -34,7 +34,7 @@ export default defineConfig(({ mode }) => {
       open: true,
       port: PORT
     },
-    base: API_URL,
+    base: "Locker/dashboards",
     plugins: [react(), jsconfigPaths()]
   };
 });
