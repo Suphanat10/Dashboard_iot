@@ -1,4 +1,5 @@
 {
+   "base": '/Locker/dashboards/'
    "routes": [
      {
        "src": "/[^.]+",             
